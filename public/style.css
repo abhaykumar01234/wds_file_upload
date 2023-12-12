@@ -1,0 +1,35 @@
+body {
+  background: #ebecf0;
+  font-family: sans-serif;
+}
+input,
+textarea,
+select,
+button {
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #ebecf0;
+  text-shadow: 1px 1px 0 #fff;
+  border-radius: 30px;
+}
+
+input,
+textarea,
+select {
+  box-shadow: inset 2px 2px 5px #a7abbc, inset -5px -5px 10px #fff;
+}
+
+button {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #a7abbc;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+button:active {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #a7abbc, inset -2px -2px 5px #fff,
+    inset 2px 2px 5px #babecc;
+}
